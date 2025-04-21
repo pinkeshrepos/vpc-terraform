@@ -11,4 +11,16 @@ This project provisions a VPC infrastructure on AWS using Terraform.
 
 ## 📁 Project Structure
 
-# vpc-terraform
+vpc-project/
+├── modules/
+│   └── vpc/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── provider.tf
+├── terraform.tfvars
+└── README.md
+
